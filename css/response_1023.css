@@ -1,0 +1,548 @@
+@media (max-width: 1023px){
+    /*---------------
+	    Main styles
+	---------------*/
+    .block_title,
+    .page_title{
+        margin-bottom: 20px;
+
+        font-size: 25px;
+    }
+
+
+
+    .content{
+        width: 100%;
+    }
+
+
+
+    /*---------------
+		Header
+	---------------*/
+    header .right_info .col.left{
+        width: 100%;
+    }
+
+    header .right_info .col.right{
+        width: 100%;
+
+        margin-top: 15px;
+    }
+
+
+    header .account{
+        float: right;
+
+        width: 200px;
+
+        padding: 15px 0;
+    }
+
+
+    header .right_info .col.right .links{
+        float: left;
+
+        width: calc(100% - 230px);
+
+        margin-top: 0;
+    }
+
+
+
+    /*---------------
+		Sidebar
+	---------------*/
+    aside{
+        width: 100%;
+    }
+
+    aside .filter{
+        margin: 0 0 20px;
+    }
+
+    aside .filter form{
+        overflow: hidden;
+
+        margin-left: -30px;
+    }
+
+    aside .filter .item,
+    aside .filter .submit{
+        float: left;
+
+        width: calc(33.333% - 30px);
+
+        margin-left: 30px;
+    }
+
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .card_block .banner{
+        width: calc(100% - 163px);
+
+        padding: 9px 20px 10px;
+    }
+
+    .card_block .banner:after{
+        display: none;
+    }
+
+
+
+    .main_slider{
+        width: 100%;
+    }
+
+
+    .delivery_banner{
+        float: left;
+
+        width: calc(50% - 10px);
+
+        padding: 15px 30px;
+    }
+
+    .credit_banner{
+        width: calc(50% - 10px);
+
+        padding: 15px 30px;
+    }
+
+
+    .cats_wall > .grid > .item_wrap.middle{
+        width: 50%;
+    }
+
+    .cats_wall > .grid > .item_wrap.mini{
+        width: calc((100% - 320px)/2);
+    }
+
+    .cats_wall > .grid > .item_wrap.big{
+        width: 100%;
+    }
+
+    .cats_wall > .grid > .item_wrap > .grid .item{
+        font-size: 18px;
+    }
+
+
+
+    .products_tabs{
+        padding-bottom: 15px;
+
+        justify-content: center;
+    }
+
+    .products_tabs li{
+        margin: 0 15px 5px;
+    }
+
+
+    .products .slider,
+    .advantages{
+        margin-bottom: 30px;
+    }
+
+
+    .text_block{
+        padding-bottom: 20px;
+    }
+
+
+    .brands_block{
+        padding: 30px 0;
+    }
+
+
+    .articles_block{
+        padding: 30px 0 20px;
+    }
+
+    .articles_block .item_wrap{
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    .cart_info .economy{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .cart_info .economy .item{
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .cart_info .economy .item + .item{
+        margin-top: 15px;
+    }
+
+
+
+    .cart_info table thead{
+        display: none;
+    }
+
+
+    .cart_info table tbody tr{
+        position: relative;
+
+        display: block;
+        overflow: hidden;
+
+        width: 100%;
+
+        border: 1px solid #ebebeb;
+    }
+
+    .cart_info table tbody tr + tr{
+        margin-top: -1px;
+    }
+
+    .cart_info table tbody td{
+        position: relative;
+
+        display: block;
+        float: left;
+
+        padding: 20px 0;
+
+        border: none;
+    }
+
+    .cart_info table td:last-child{
+        border: none;
+    }
+
+    .cart_info table td.number{
+        display: none;
+    }
+
+    .cart_info table td.name{
+        width: calc(100% - 110px);
+
+        padding-right: 50px;
+    }
+
+    .cart_info table td.amount,
+    .cart_info table td.weight,
+    .cart_info table td.price{
+        margin-right: 40px;
+        padding-top: 20px;
+    }
+
+    .cart_info table td.price:before,
+    .cart_info table td.amount:before,
+    .cart_info table td.weight:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        color: #000;
+        font: 10px/14px Open Sans;
+
+        opacity: .4;
+
+        content: attr(data-column);
+        text-align: left;
+        text-transform: none;
+        letter-spacing: 0;
+    }
+
+    .cart_info table td.delete{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        padding: 10px;
+    }
+
+
+    .cart_info table tfoot tr{
+        display: block;
+        overflow: hidden;
+
+        width: 100%;
+    }
+
+    .cart_info table tfoot td{
+        display: block;
+        float: left;
+
+        width: 50%;
+
+        padding: 10px 0;
+
+        border: none;
+
+        text-align: center;
+    }
+
+    .cart_info table tfoot td:empty{
+        display: none;
+    }
+
+    .cart_info table tfoot td.links{
+        width: 100%;
+
+        padding: 10px 0;
+
+        border-bottom: 1px solid #ebebeb;
+    }
+
+
+
+    .checkout .minimum{
+        font-size: 20px;
+    }
+
+    .checkout .step{
+        width: 50%;
+    }
+
+    .checkout .step:last-child{
+        margin-top: -227px;
+    }
+
+    .checkout .form textarea{
+        height: 102px;
+    }
+
+    .checkout .form .submit{
+        padding-top: 0;
+    }
+
+
+
+    .products .list .product .name{
+        width: 190px;
+    }
+
+
+
+    .compare_features{
+        display: none;
+    }
+
+
+    .compare_products .product_features .block + .block{
+        margin-top: 0;
+    }
+
+    .compare_products .product_features li{
+        position: relative;
+
+        padding-top: 16px;
+    }
+
+    .compare_products .product_features li:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+
+        padding: 5px 0;
+
+        color: #404040;
+        font: 500 12px Open Sans;
+
+        content: attr(data-column);
+    }
+
+
+
+    .lk .personal.right{
+        width: 100%;
+
+        padding-top: 30px;
+    }
+
+    .lk .personal .personal_info,
+    .lk .personal form{
+        width: calc(100% - 300px);
+    }
+
+    .lk .personal .exp{
+        width: 270px;
+
+        margin-top: 0;
+    }
+
+
+    .lk .history > .item .head .number_col,
+    .lk .history > .item .head .date_col,
+    .lk .history > .item .head .price_col{
+        width: 33.333%;
+    }
+
+
+    .lk .history > .item > .data{
+        padding: 20px;
+    }
+
+    .lk .history > .item .cart_info table td.amount{
+        min-width: 70px;
+    }
+
+    .lk .history > .item .cart_info table td.amount,
+    .lk .history > .item .cart_info table td.weight,
+    .lk .history > .item .cart_info table td.price{
+        line-height: normal;
+
+        text-align: left;
+    }
+
+
+
+    .product_info .images{
+        float: none;
+
+        max-width: 100%;
+
+        margin: 0 auto 20px;
+    }
+
+
+    .product_info .data{
+        width: calc(100% - 223px);
+
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .product_info .right_info{
+        width: 203px;
+
+        margin-bottom: 40px;
+    }
+
+    .product_info .right_info .bg,
+    .product_info .right_info .exp,
+    .product_info .right_info .share{
+        width: 100%;
+
+        margin-left: 0;
+    }
+
+    .product_info .right_info .exp,
+    .product_info .right_info .share{
+        margin-top: 20px;
+    }
+
+
+
+    .reviews_block .review{
+        padding: 15px 20px;
+    }
+
+
+
+    .shop_features .grid{
+        justify-content: flex-start;
+    }
+
+    .shop_features .col_wrap{
+        width: 33.333%;
+    }
+
+
+
+    .shop_desc .slider{
+        margin-right: 20px;
+    }
+
+
+
+    .shop_menu aside .filter{
+        margin-top: 0;
+    }
+
+
+
+    .shops_list .filter{
+        padding-bottom: 20px;
+    }
+
+    .shops_list .filter .item_wrap{
+        width: 33.333%;
+
+        margin-bottom: 15px;
+    }
+
+    .shops_list .filter .submit{
+        padding-top: 5px;
+    }
+
+
+
+    .shops_list .list .shop{
+        margin-bottom: 20px;
+    }
+
+    .shops_list .list .shop .info{
+        width: calc(100% - 240px);
+    }
+
+
+    .shops_list .list .shop .features{
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+    .shops_list .list .shop .features .col{
+        width: 50%;
+    }
+
+
+
+    /*---------------
+		Footer
+	---------------*/
+    footer{
+        padding-bottom: 30px;
+    }
+
+
+    footer .col.left{
+        width: 260px;
+
+        margin-right: auto;
+    }
+
+
+    footer .links{
+        width: calc(25% - 8px);
+    }
+
+
+    footer .contacts,
+    footer .col.right{
+        width: calc(50% - 15px);
+
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+		PopUp
+	---------------*/
+}
