@@ -1,4 +1,5 @@
-@media (max-width: 1229px){
+@media (max-width: 1229px)
+{
     /*---------------
 	    Main styles
 	---------------*/
@@ -8,27 +9,24 @@
     /*---------------
 		Header
 	---------------*/
-    header .right_info .col.left{
+    header .right_info .col.left
+    {
         align-items: center;
     }
 
-    header .phone{
-        top: 0;
-
-        display: block;
-
-        text-align: center;
+    header .phone
+    {
+        top: 0;  display: block;  text-align: center;
     }
 
-    header .callback_link{
-        display: block;
-
-        margin-top: 3px;
-        margin-left: 0;
+    header .callback_link
+    {
+        display: block;  margin-top: 3px;  margin-left: 0;
     }
 
 
-    header .search{
+    header .search
+    {
         margin-top: 10px;
     }
 
@@ -43,173 +41,186 @@
     /*---------------
 		Main section
 	---------------*/
-    .cats_wall > .grid > .item_wrap > .grid{
+    .cats_wall > .grid > .item_wrap > .grid
+    {
         padding: 25px 20px 15px;
     }
 
-    .cats_wall > .grid > .item_wrap > .grid .item_wrap{
+    .cats_wall > .grid > .item_wrap > .grid .item_wrap
+    {
         width: 33.333%;
     }
 
 
 
-    .advantages .item{
+    .advantages .item
+    {
         padding: 40px 20px;
     }
 
-    .advantages .item .name br{
+    .advantages .item .name br
+    {
         display: none;
     }
 
 
 
-    .card_block .banner.bg2 .title{
-        font-size: 15px;
-
-        text-align: left;
+    .card_block .banner.bg2 .title
+    {
+        font-size: 15px;  text-align: left;
     }
 
 
 
-    .cart_info table td.name{
+    .cart_info table td.name
+    {
         padding-right: 10px;
     }
 
 
 
-    .checkout .form .lines{
+    .checkout .form .lines
+    {
         margin-left: -15px;
     }
 
     .checkout .form .lines .name,
-    .checkout .form .lines .field{
+    .checkout .form .lines .field
+    {
         margin-left: 15px;
     }
 
 
 
-    .products .item_wrap{
+    .products .item_wrap
+    {
         width: 33.333%;
     }
 
 
 
-    .products .list .head div:nth-child(2){
+    .products .list .head div:nth-child(2)
+    {
         width: 120px;
     }
 
 
-    .products .list .product .name{
+    .products .list .product .name
+    {
         width: 200px;
     }
 
-    .products .list .product .price_box{
+    .products .list .product .price_box
+    {
         width: 120px;
     }
 
-    .products .list .product .price_box > div{
-        display: block;
-
-        width: 100%;
+    .products .list .product .price_box > div
+    {
+        display: block;  width: 100%;
     }
 
     .products .list .product .silver_card,
-    .products .list .product .gold_card{
+    .products .list .product .gold_card
+    {
         margin-top: 10px;
     }
 
 
 
     .lk .personal .personal_info,
-    .lk .personal form{
+    .lk .personal form
+    {
         width: 100%;
     }
 
 
-    .lk .personal .exp{
-        width: 100%;
-
-        margin-top: 30px;
+    .lk .personal .exp
+    {
+        width: 100%;  margin-top: 30px;
     }
 
 
 
-    .product_info .images{
+    .product_info .images
+    {
         margin-bottom: 20px;
     }
 
 
-    .product_info .data{
-        width: calc(100% - 485px);
-
-        margin-bottom: 20px;
+    .product_info .data
+    {
+        width: calc(100% - 485px);  margin-bottom: 20px;
     }
 
 
-    .product_info .right_info{
-        overflow: hidden;
-
-        width: calc(100% + 20px);
-
-        margin-left: -20px;
+    .product_info .right_info
+    {
+        overflow: hidden;  width: calc(100% + 20px);  margin-left: -20px;
     }
 
     .product_info .right_info .bg,
     .product_info .right_info .exp,
-    .product_info .right_info .share{
-        float: left;
-
-        width: calc(33.333% - 20px);
-
-        margin-top: 0;
-        margin-left: 20px;
+    .product_info .right_info .share
+    {
+        float: left;  width: calc(33.333% - 20px);  margin-top: 0;  margin-left: 20px;
     }
 
 
 
-    .shop_features .item .val br{
+    .shop_features .item .val br
+    {
         display: block;
     }
 
 
 
-    .shops_list .filter .grid{
+    .shops_list .filter .grid
+    {
         margin-left: -15px;
     }
 
     .shops_list .filter .item,
-    .shops_list .delivery .label{
+    .shops_list .delivery .label
+    {
         margin-left: 15px;
     }
 
-    .shops_list .delivery{
+    .shops_list .delivery
+    {
         width: 33.333% !important;
     }
 
-    .shops_list .links{
+    .shops_list .links
+    {
         width: 66.666% !important;
     }
 
-    .shops_list .links a{
+    .shops_list .links a
+    {
         margin-left: 15px;
     }
 
 
 
-    .shops_list .list .shop .info{
+    .shops_list .list .shop .info
+    {
         width: calc(100% - 525px);
     }
 
 
-    .shops_list .list .shop .features{
+    .shops_list .list .shop .features
+    {
         width: 265px;
     }
 
-    .shops_list .list .shop .features .col{
+    .shops_list .list .shop .features .col
+    {
         width: 100%;
     }
 
-    .shops_list .list .shop .features .col + .col{
+    .shops_list .list .shop .features .col + .col
+    {
         margin-top: 10px;
     }
 
@@ -218,7 +229,8 @@
     /*---------------
 		Footer
 	---------------*/
-    footer .contacts{
+    footer .contacts
+    {
         width: 200px;
     }
 

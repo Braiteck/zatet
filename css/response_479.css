@@ -1,9 +1,11 @@
-@media (max-width: 479px){
+@media (max-width: 479px)
+{
     /*---------------
         Main styles
     ---------------*/
     .block_title,
-    .page_title{
+    .page_title
+    {
         font-size: 20px;
         line-height: 24px;
     }
@@ -13,60 +15,67 @@
     /*---------------
         Header
     ---------------*/
-    header .logo{
+    header .logo
+    {
         width: 110px;
     }
 
 
-    header .right_info{
+    header .right_info
+    {
         padding-top: 10px;
     }
 
 
-    header .city{
+    header .city
+    {
         width: 100%;
-
         margin-bottom: 5px;
 
         text-align: center;
     }
 
-    header .right_info .contacts{
+    header .right_info .contacts
+    {
         margin-left: 0;
     }
 
-    header .right_info .contacts .phone{
+    header .right_info .contacts .phone
+    {
+        line-height: 36px;
+
         position: absolute;
         top: 0;
         right: 15px;
 
         width: auto;
 
-        line-height: 36px;
-
         text-align: right;
     }
 
-    header .callback_link{
+    header .callback_link
+    {
         margin-top: 0;
     }
 
 
-    header .right_info .col.left{
+    header .right_info .col.left
+    {
         font-size: 11px;
 
         justify-content: space-between;
     }
 
 
-    header .right_info .col.left .links{
+    header .right_info .col.left .links
+    {
         margin: 0;
     }
 
 
-    header .search .input{
+    header .search .input
+    {
         width: 100%;
-
         margin-bottom: 10px;
 
         border: 2px solid #dfdfdf;
@@ -74,27 +83,30 @@
     }
 
     header .search .select1 select,
-    header .search .select1 .sbSelector{
+    header .search .select1 .sbSelector
+    {
         border-left-width: 2px;
         border-radius: 3px 0 0 3px;
     }
 
     header .search .select1,
-    header .search .select2{
+    header .search .select2
+    {
         width: calc(50% - 25px);
     }
 
 
-    header .account{
+    header .account
+    {
         width: 100%;
-
         padding-top: 0;
 
         text-align: center;
     }
 
 
-    header .right_info .col.right .links{
+    header .right_info .col.right .links
+    {
         width: 100%;
     }
 
@@ -103,17 +115,18 @@
     /*---------------
         Sidebar
     ---------------*/
-    aside .filter form{
+    aside .filter form
+    {
         margin-left: 0;
     }
 
 
     aside .filter .item,
-    aside .filter .submit{
+    aside .filter .submit
+    {
         float: none;
 
         width: 100%;
-
         margin-left: 0;
     }
 
@@ -123,94 +136,108 @@
         Main section
     ---------------*/
     .card_block .banner .title,
-    .card_block .banner.bg2 .title{
+    .card_block .banner.bg2 .title
+    {
         font-size: 14px;
     }
 
-    .card_block .links a + a{
+    .card_block .links a + a
+    {
         margin-left: 20px;
     }
 
 
     .delivery_banner,
-    .credit_banner{
+    .credit_banner
+    {
         width: 100%;
-
         padding: 15px 30px;
     }
 
-    .delivery_banner .title{
-        margin-bottom: 18px;
-
+    .delivery_banner .title
+    {
         font-size: 16px;
+
+        margin-bottom: 18px;
     }
 
 
-    .credit_banner{
+    .credit_banner
+    {
         padding-right: 10px;
 
         background: url(../images/bg_credit_banner1.png) 20px 54px no-repeat,
         url(../images/bg_credit_banner2.png) 100% 100% no-repeat #d9ab7c;
     }
 
-    .credit_banner li{
+    .credit_banner li
+    {
         padding-left: 110px;
     }
 
 
-    .cats_wall > .grid > .item_wrap > .item .name.right{
+    .cats_wall > .grid > .item_wrap > .item .name.right
+    {
         padding-right: 20px;
 
         text-align: right;
     }
 
-    .cats_wall > .grid > .item_wrap > .grid .item_wrap{
+    .cats_wall > .grid > .item_wrap > .grid .item_wrap
+    {
         width: 100%;
     }
 
-    .cats_wall > .grid > .item_wrap > .grid .item_wrap + .item_wrap{
+    .cats_wall > .grid > .item_wrap > .grid .item_wrap + .item_wrap
+    {
         margin-top: 30px;
     }
 
-    .cats_wall > .grid > .item_wrap > .grid .item{
+    .cats_wall > .grid > .item_wrap > .grid .item
+    {
         font-size: 18px;
     }
 
 
-    .products_tabs li{
+    .products_tabs li
+    {
         margin: 0 14px 5px;
     }
 
-    .products_tabs li a{
+    .products_tabs li a
+    {
         font-size: 13px;
     }
 
 
 
-    .advantages .item{
-        padding: 15px;
-
+    .advantages .item
+    {
         font-size: 13px;
         line-height: 18px;
+
+        padding: 15px;
     }
 
 
 
-    .text_block{
+    .text_block
+    {
         line-height: 20px;
     }
 
 
 
-    .articles_block .item .thumb{
+    .articles_block .item .thumb
+    {
         float: none;
 
         margin: 0 auto;
     }
 
-    .articles_block .item .info{
+    .articles_block .item .info
+    {
         width: 100%;
-
         padding-top: 15px;
 
         text-align: center;
@@ -218,21 +245,22 @@
 
 
 
-    .cart_info table td.price{
+    .cart_info table td.price
+    {
         width: 100%;
-
         margin-left: 0;
         padding: 20px 15px 15px;
     }
 
-    .cart_info table td.amount{
+    .cart_info table td.amount
+    {
         clear: both;
     }
 
     .cart_info table td.amount,
-    .cart_info table td.weight{
+    .cart_info table td.weight
+    {
         width: 50%;
-
         margin: 0;
         padding: 20px 15px 15px;
 
@@ -241,74 +269,84 @@
 
     .cart_info table td.price:before,
     .cart_info table td.amount:before,
-    .cart_info table td.weight:before{
+    .cart_info table td.weight:before
+    {
         padding: 0 15px;
     }
 
 
-    .cart_info table tfoot td{
-        width: 100%;
-
-        padding: 0;
-
+    .cart_info table tfoot td
+    {
         line-height: normal;
+
+        width: 100%;
+        padding: 0;
 
         white-space: normal;
     }
 
-    .cart_info table tfoot td.links{
+    .cart_info table tfoot td.links
+    {
         margin-bottom: 15px;
     }
 
-    .cart_info table tfoot td.links .link_item{
+    .cart_info table tfoot td.links .link_item
+    {
         width: 100%;
     }
 
-    .cart_info table tfoot td.links .link_item + .link_item{
+    .cart_info table tfoot td.links .link_item + .link_item
+    {
         margin-top: 10px;
         margin-left: 0;
     }
 
 
-    .checkout .minimum{
+    .checkout .minimum
+    {
         font-size: 16px;
     }
 
 
 
-    .sorting .sort{
+    .sorting .sort
+    {
         float: none;
 
         width: 100%;
-
         margin-bottom: 10px;
     }
 
 
-    .sorting .limit{
+    .sorting .limit
+    {
         float: none;
 
         width: 100%;
     }
 
-    .sorting .limit .sbOptions{
+    .sorting .limit .sbOptions
+    {
         right: auto;
         left: -15px;
     }
 
 
 
-    .products .item_wrap{
+    .products .item_wrap
+    {
         width: 100%;
     }
 
-    .products .product .thumb a{
-        height: 150px;
-
+    .products .product .thumb a
+    {
         line-height: 150px;
+
+        height: 150px;
     }
 
-    .products .product .main_price{
+    .products .product .main_price
+    {
         float: left;
 
         margin-right: 15px;
@@ -316,109 +354,124 @@
 
 
 
-    .products .list .product{
+    .products .list .product
+    {
         padding: 15px;
     }
 
-    .products .list .product + .product{
+    .products .list .product + .product
+    {
         margin-top: 15px;
     }
 
-    .products .list .product .thumb{
+    .products .list .product .thumb
+    {
         width: 100%;
     }
 
-    .products .list .product .thumb a{
-        height: 150px;
-
+    .products .list .product .thumb a
+    {
         line-height: 150px;
+
+        height: 150px;
     }
 
 
-    .products .list .product .name{
+    .products .list .product .name
+    {
         width: 100%;
     }
 
     .products .list .product .price_box,
-    .products .list .product .col.right{
+    .products .list .product .col.right
+    {
         width: 100%;
-
         margin: 0;
         padding: 0;
     }
 
-    .products .list .product .col.right{
+    .products .list .product .col.right
+    {
         margin-top: 20px;
     }
 
 
 
     .pagination a.prev,
-    .pagination a.next{
+    .pagination a.next
+    {
         display: none;
     }
 
 
-    .lk .card_info .info{
+    .lk .card_info .info
+    {
         padding: 84px 20px 20px;
     }
 
-    .lk .card_info .info .lines{
+    .lk .card_info .info .lines
+    {
         margin-left: -25px;
     }
 
-    .lk .card_info .info .input{
+    .lk .card_info .info .input
+    {
         width: calc(100% - 27px);
-
         margin-left: 27px;
         padding: 0 12px;
     }
 
-    .lk .card_info .info .sbHolder{
+    .lk .card_info .info .sbHolder
+    {
         max-width: calc(100% - 27px);
-
         margin-left: 27px;
     }
 
 
-    .lk .card_info .text div{
+    .lk .card_info .text div
+    {
         width: 100%;
     }
 
-    .lk .card_info .text div + div{
+    .lk .card_info .text div + div
+    {
         margin-top: 5px;
     }
 
 
-    .lk .personal .personal_info .name{
+    .lk .personal .personal_info .name
+    {
         width: 100%;
-
         margin-bottom: 3px;
     }
 
-    .lk .personal .personal_info .val{
+    .lk .personal .personal_info .val
+    {
         width: 100%;
-
         padding: 0;
     }
 
 
-    .lk .personal .links div{
+    .lk .personal .links div
+    {
         width: 100%;
     }
 
-    .lk .personal .links div + div{
+    .lk .personal .links div + div
+    {
         margin-top: 10px;
     }
 
 
-    .lk .personal .subscribes .item:nth-child(3){
+    .lk .personal .subscribes .item:nth-child(3)
+    {
         margin-top: 10px;
     }
 
 
 
-    .lk .history .block_title{
+    .lk .history .block_title
+    {
         font-size: 20px;
     }
 
@@ -426,165 +479,187 @@
     .lk .history > .item .head .number_col,
     .lk .history > .item .head .date_col,
     .lk .history > .item .head .price_col,
-    .lk .history > .item .head .status_col{
+    .lk .history > .item .head .status_col
+    {
         width: 100%;
     }
 
 
     .lk .history > .item .cart_info table td.amount,
     .lk .history > .item .cart_info table td.weight,
-    .lk .history > .item .cart_info table td.price{
+    .lk .history > .item .cart_info table td.price
+    {
         width: 50%;
     }
 
 
 
-    .lk .personal .subscribes .item{
+    .lk .personal .subscribes .item
+    {
         min-width: 115px;
     }
 
 
 
-    .product_info .images{
+    .product_info .images
+    {
         padding: 0 10px 15px;
     }
 
-    .product_info .images .big .slide a{
-        height: 204px;
-
+    .product_info .images .big .slide a
+    {
         line-height: 204px;
+
+        height: 204px;
     }
 
-    .product_info .images .thumbs{
+    .product_info .images .thumbs
+    {
         margin-top: 15px;
     }
 
 
-    .product_info .data .price_box{
+    .product_info .data .price_box
+    {
         padding-right: 0;
     }
 
-    .product_info .data .main_price{
+    .product_info .data .main_price
+    {
         width: 100%;
     }
 
 
-    .product_info .data .features .item .name{
+    .product_info .data .features .item .name
+    {
         width: 100%;
-
         margin-bottom: 3px;
     }
 
-    .product_info .data .features .item .val{
+    .product_info .data .features .item .val
+    {
         width: 100%;
-
         padding: 0;
     }
 
 
-    .product_info .data .options .item{
+    .product_info .data .options .item
+    {
         width: calc(100% - 25px);
     }
 
-    .product_info .data .options .item + .item{
+    .product_info .data .options .item + .item
+    {
         margin-top: 20px;
     }
 
 
-    .product_info .data .buy{
+    .product_info .data .buy
+    {
         width: calc(100% - 120px);
-
         margin-bottom: 20px;
     }
 
 
-    .product_info .data .compare a{
+    .product_info .data .compare a
+    {
         padding-left: 40px;
     }
 
-    .product_info .data .compare a span{
+    .product_info .data .compare a span
+    {
         display: inline;
     }
 
 
-    .product_info .right_info{
+    .product_info .right_info
+    {
         width: 100%;
-
         margin-left: 0;
     }
 
     .product_info .right_info .bg,
     .product_info .right_info .exp,
-    .product_info .right_info .share{
+    .product_info .right_info .share
+    {
         width: 100%;
-
         margin-left: 0;
     }
 
-    .product_info .right_info .exp{
+    .product_info .right_info .exp
+    {
         margin-top: 20px;
     }
 
 
 
-    .product_info .tabs li{
+    .product_info .tabs li
+    {
         width: 100%;
 
         text-align: center;
     }
 
-    .product_info .tabs li + li{
+    .product_info .tabs li + li
+    {
         margin-top: 10px;
         margin-left: 0;
     }
 
-    .product_info .tabs li a{
+    .product_info .tabs li a
+    {
         padding-bottom: 5px;
     }
 
 
-    .reviews_block .head .rating{
+    .reviews_block .head .rating
+    {
         width: 100%;
-
         margin-right: 0;
         margin-bottom: 0;
     }
 
-    .reviews_block .review .author{
+    .reviews_block .review .author
+    {
         width: 100%;
     }
 
-    .reviews_block .review .rating{
+    .reviews_block .review .rating
+    {
         width: 100%;
     }
 
 
 
-    .shop_features .col_wrap{
+    .shop_features .col_wrap
+    {
         width: 100%;
-
         margin-bottom: 8px;
     }
 
 
     .shop_desc .block_title,
-    .shop_menu .block_title{
+    .shop_menu .block_title
+    {
         font-size: 20px;
     }
 
 
 
-    .shops_list .filter .item_wrap{
+    .shops_list .filter .item_wrap
+    {
         width: 100%;
     }
 
     .shops_list .delivery,
-    .shops_list .links{
+    .shops_list .links
+    {
         width: 100% !important;
     }
 
 
-    .shops_list .filter .item_wrap:first-child .data .scroll{
+    .shops_list .filter .item_wrap:first-child .data .scroll
+    {
                 column-count: 2;
         -webkit-column-count: 2;
            -moz-column-count: 2;
@@ -594,60 +669,72 @@
     }
 
 
-    .shops_list .list .shop .images{
+    .shops_list .list .shop .images
+    {
         width: calc(50% - 7px);
     }
 
     .shops_list .list .shop .images .slide a,
-    .shops_list .list .shop .images .slide img{
+    .shops_list .list .shop .images .slide img
+    {
         height: auto;
     }
 
 
-    .shops_list .list .shop .info{
+    .shops_list .list .shop .info
+    {
         width: calc(50% - 8px);
     }
 
-    .shops_list .list .shop .info .shop_name a{
+    .shops_list .list .shop .info .shop_name a
+    {
         font-size: 17px;
     }
 
-    .shops_list .list .shop .info .rating ul{
+    .shops_list .list .shop .info .rating ul
+    {
         display: block;
 
         width: 100%;
     }
 
-    .shops_list .list .shop .info .rating .count{
+    .shops_list .list .shop .info .rating .count
+    {
         margin-left: 0;
     }
 
-    .shops_list .list .shop .info .desc{
+    .shops_list .list .shop .info .desc
+    {
         display: none;
     }
 
 
-    .shops_list .list .shop .cupons{
+    .shops_list .list .shop .cupons
+    {
         margin-top: 15px;
         padding-top: 25px;
         padding-left: 0;
     }
 
-    .shops_list .list .shop .cupons:before{
+    .shops_list .list .shop .cupons:before
+    {
         top: 0;
         left: 60px;
     }
 
-    .shops_list .list .shop .cupons .item{
+    .shops_list .list .shop .cupons .item
+    {
         width: 100%;
     }
 
-    .shops_list .list .shop .cupons .sep{
+    .shops_list .list .shop .cupons .sep
+    {
         display: none;
     }
 
 
-    .shops_list .list .shop .features{
+    .shops_list .list .shop .features
+    {
         margin-top: 15px;
     }
 
@@ -656,28 +743,30 @@
     /*---------------
         Footer
     ---------------*/
-    footer .col.left{
+    footer .col.left
+    {
         width: 100%;
-
         margin-bottom: 20px;
 
         text-align: center;
     }
 
 
-    footer .logo img{
+    footer .logo img
+    {
         margin: 0 auto;
     }
 
 
-    footer .socials{
+    footer .socials
+    {
         width: 272px;
-
         margin: 20px auto 0;
     }
 
 
-    footer .links{
+    footer .links
+    {
         width: 50%;
     }
 
@@ -687,21 +776,25 @@
         PopUp
     ---------------*/
     .modal_data,
-    .modal_title{
+    .modal_title
+    {
         padding: 20px;
     }
 
 
-    .modal_title a{
+    .modal_title a
+    {
         font-size: 16px;
     }
 
-    .modal_title a + a{
+    .modal_title a + a
+    {
         margin-left: 21px;
     }
 
 
-    .fancybox-close-small{
+    .fancybox-close-small
+    {
         top: 5px;
         right: 5px;
     }
