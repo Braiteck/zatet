@@ -16,12 +16,19 @@
 
     header .phone
     {
-        top: 0;  display: block;  text-align: center;
+        top: 0;
+
+        display: block;
+
+        text-align: center;
     }
 
     header .callback_link
     {
-        display: block;  margin-top: 3px;  margin-left: 0;
+        display: block;
+
+        margin-top: 3px;
+        margin-left: 0;
     }
 
 
@@ -67,7 +74,9 @@
 
     .card_block .banner.bg2 .title
     {
-        font-size: 15px;  text-align: left;
+        font-size: 15px;
+
+        text-align: left;
     }
 
 
@@ -117,7 +126,9 @@
 
     .products .list .product .price_box > div
     {
-        display: block;  width: 100%;
+        display: block;
+
+        width: 100%;
     }
 
     .products .list .product .silver_card,
@@ -137,7 +148,8 @@
 
     .lk .personal .exp
     {
-        width: 100%;  margin-top: 30px;
+        width: 100%;
+        margin-top: 30px;
     }
 
 
@@ -150,20 +162,28 @@
 
     .product_info .data
     {
-        width: calc(100% - 485px);  margin-bottom: 20px;
+        width: calc(100% - 485px);
+        margin-bottom: 20px;
     }
 
 
     .product_info .right_info
     {
-        overflow: hidden;  width: calc(100% + 20px);  margin-left: -20px;
+        overflow: hidden;
+
+        width: calc(100% + 20px);
+        margin-left: -20px;
     }
 
     .product_info .right_info .bg,
     .product_info .right_info .exp,
     .product_info .right_info .share
     {
-        float: left;  width: calc(33.333% - 20px);  margin-top: 0;  margin-left: 20px;
+        float: left;
+
+        width: calc(33.333% - 20px);
+        margin-top: 0;
+        margin-left: 20px;
     }
 
 
@@ -222,6 +242,21 @@
     .shops_list .list .shop .features .col + .col
     {
         margin-top: 10px;
+    }
+
+
+
+    .tags .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+
+    .tags label
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
     }
 
 

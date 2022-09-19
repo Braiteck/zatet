@@ -1178,8 +1178,7 @@ aside
 
 aside .filter
 {
-    margin: 40px 0;
-
+    /* margin: 40px 0; */
     border-top: 2px solid #404040;
     border-bottom: 2px solid #404040;
 }
@@ -3158,6 +3157,109 @@ aside .filter.compare_filter .item .data
     text-transform: uppercase;
 
     color: #404040;
+}
+
+
+
+.tags
+{
+    margin-bottom: 20px;
+}
+
+
+.tags .row
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -13px;
+    margin-left: -13px;
+}
+
+
+.tags label
+{
+    position: relative;
+
+    display: block;
+
+    margin-bottom: 13px;
+    margin-left: 13px;
+
+    cursor: pointer;
+}
+
+
+.tags label input
+{
+    display: none;
+}
+
+
+.tags label .check
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
+    margin: auto;
+
+    transition: opacity .2s linear;
+
+    opacity: 0;
+    border-radius: 50%;
+    background: rgba(255,255,255,.3);
+}
+
+.tags label .check img
+{
+    display: block;
+}
+
+
+.tags label span
+{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+
+    display: block;
+
+    padding: 10px 25px;
+
+    transition: .2s linear;
+
+    color: #309c7d;
+    border-radius: 2px;
+    background: rgba(48, 156, 125, .1);
+}
+
+
+.tags label input:checked ~ .check
+{
+    opacity: 1;
+}
+
+.tags label input:checked ~ span
+{
+    padding-right: 20px;
+    padding-left: 51px;
+
+    color: #fff;
+    background: #309c7d;
 }
 
 

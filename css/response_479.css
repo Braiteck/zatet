@@ -740,6 +740,25 @@
 
 
 
+    .tags label span
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .tags label .check
+    {
+        left: 15px;
+    }
+
+    .tags label input:checked ~ span
+    {
+        padding-right: 15px;
+        padding-left: 45px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
